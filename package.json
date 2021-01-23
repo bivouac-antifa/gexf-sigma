@@ -9,6 +9,7 @@
     "bootstrap": "^4.6.0",
     "bootswatch": "^4.6.0",
     "formik": "^2.2.6",
+    "gh-pages": "^3.1.0",
     "lodash": "^4.17.20",
     "node-sass": "^4.14.1",
     "pursuit": "^0.3.1",
@@ -21,6 +22,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
