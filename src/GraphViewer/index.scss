@@ -1,0 +1,12 @@
+.graph-viewer {
+
+  .sigma-card {
+    top: 1em;
+    position: sticky;
+    position: -webkit-sticky;
+
+    .sigma-wrapper {
+      min-height: calc(100vh - 2em);
+    }
+  }
+}
